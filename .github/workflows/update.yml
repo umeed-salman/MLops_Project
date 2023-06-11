@@ -13,8 +13,10 @@ jobs:
     - name: Install Package
       run: |
         pip install flake8
+        pip install black
       
     - name: Run tests
       run: |
         flake8 data.py
+        black data.py
       
