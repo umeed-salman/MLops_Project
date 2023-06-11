@@ -21,3 +21,5 @@ jobs:
         flake8 model.py
         black main.py
         black model.py
+        flake8 data.py
+        black data.py
