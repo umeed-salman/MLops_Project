@@ -29,4 +29,13 @@ testloader = torch.utils.data.DataLoader(testset,
                                          num_workers=2)
 
 # Define the classes for CIFAR-10
-classes = ('plane', 'car', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck')
+classes = ('plane',
+           'car',
+           'bird',
+           'cat',
+           'deer',
+           'dog',
+           'frog',
+           'horse',
+           'ship',
+           'truck')
