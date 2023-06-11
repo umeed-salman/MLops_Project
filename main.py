@@ -51,8 +51,10 @@ def test(net):
     # Calculate and log the accuracy metric
     accuracy = 100 * correct / total
     mlflow.log_metric("accuracy", accuracy)
-    print('Accuracy of the network on the 10000 test images: %.2f %%' % accuracy)
+    print(
+        'Accuracy of the network on the 10000 test images: %.2f %%' % accuracy)
 
+    
 if __name__ == '__main__':
     # Start an MLflow run
     with mlflow.start_run():
@@ -60,6 +62,3 @@ if __name__ == '__main__':
         train(net)  # Train the network
         mlflow.pytorch.log_model(net, "model")
         test(net)   # Test the network
-
-
-
