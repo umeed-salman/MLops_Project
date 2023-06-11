@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/umeed/DataspellProjects/MLOPS_Project/project/mlruns/0/275edfb315ac411d81ada06e35ac734d/artifacts
+end_time: 1686432537998
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 275edfb315ac411d81ada06e35ac734d
+run_name: rare-lamb-422
+run_uuid: 275edfb315ac411d81ada06e35ac734d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1686432057987
+status: 3
+tags: []
+user_id: umeed
