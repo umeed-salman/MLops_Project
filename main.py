@@ -35,7 +35,11 @@ def train(net):
                 mlflow.log_metric("loss",
                                   running_loss / 2000,
                                   step=i + epoch * len(trainloader))
-                print('[%d, %5d] loss: %.3f' % (epoch + 1, i + 1, running_loss / 2000))
+                print('[%d, %5d] loss: %.3f' % (
+                    epoch + 1,
+                    i + 1,
+                    running_loss / 2000
+                ))
                 running_loss = 0.0
 
     print('Finished training')
